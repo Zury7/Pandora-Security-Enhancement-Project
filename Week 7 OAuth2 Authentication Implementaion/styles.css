@@ -1,0 +1,70 @@
+/* styles.css */
+
+.background-image {
+    background-image: url('bg.jpg'); /* URL to your background image */
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place it behind other content */
+}
+.outer-container {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 70vh;
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+
+
+/* Google login button styles */
+.google-login-button {
+    display: inline-block;
+    background: linear-gradient(to bottom, #F0E68C, #FFD700); /* Gradient background */
+    color: #333;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.google-login-button:hover {
+    background: linear-gradient(to bottom, #FFD700, #F0E68C); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Scale up on hover */
+}
+.logout-form {
+    display: inline-block;
+}
+
+.logout-button {
+    display: inline-block;
+    background: linear-gradient(to bottom, #F0E68C, #FFD700); /* Gradient background */
+    color: #333;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.logout-button:hover {
+    background: linear-gradient(to bottom, #FFD700, #F0E68C); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Scale up on hover */
+}

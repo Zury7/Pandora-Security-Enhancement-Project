@@ -1,0 +1,18 @@
+{
+    "name": "vishvadini/pandora-company-ltd",
+    "description": "Week 05 task of the project.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Vishvadini\\PandoraCompanyLtd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vishvadini Ravihari",
+            "email": "vishvadinir@gmail.com"
+        }
+    ],
+    "require": { "google/apiclient": "^2.0"}
+    
+}
