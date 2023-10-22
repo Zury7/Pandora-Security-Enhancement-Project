@@ -6,7 +6,7 @@ session_start();
 
 // Replace with your own OAuth2 client credentials
 $clientID = '786932442007-gm5799fijn1oevqh72so22amjqqjiln4.apps.googleusercontent.com';
-$clientSecret = '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';
+$clientSecret = '$$$$$$$$$$$$$$$$$$$$$$$';
 $redirectURI = 'http://localhost:3000/redirect.php'; // Update with your redirect URL
 
 $client = new Google_Client();

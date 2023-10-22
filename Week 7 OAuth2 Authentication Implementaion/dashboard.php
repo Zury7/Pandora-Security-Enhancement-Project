@@ -4,7 +4,7 @@ require 'vendor/autoload.php'; // Load the Google API PHP client library
 session_start();
 if (isset($_SESSION['access_token'])) {
     $clientID = '786932442007-gm5799fijn1oevqh72so22amjqqjiln4.apps.googleusercontent.com'; // Replace with your own client ID
-    $clientSecret = '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'; // Replace with your own client secret
+    $clientSecret = '$$$$$$$$$$$$$$$$$$$$$$$'; // Replace with your own client secret
     $redirectURI = 'http://localhost:3000/redirect.php'; // Update with your redirect URL
     $client = new Google_Client();
     $client->setClientId($clientID);
